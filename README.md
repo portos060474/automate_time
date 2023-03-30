@@ -1,8 +1,4 @@
 # automate_time
-# automate_time
-# automate_time
-# automate_time
-# automate_time
 
 ## installation
 download [chrome driver](https://chromedriver.chromium.org/downloads) according to your chrome version and expand it here <br>

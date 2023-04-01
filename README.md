@@ -1,7 +1,9 @@
 # automate_time
 
 ## installation
-download [chrome driver](https://chromedriver.chromium.org/downloads) according to your chrome version and expand it here <br>
+Download [chrome driver](https://chromedriver.chromium.org/downloads) according to your chrome version and expand it here <br>
+
+Download file [client_secret.json](https://drive.google.com/file/d/1TVpcSFdt_iXdBdi0jrSb8Ch52OGN0xGI/view?usp=share_link) in the project's root folder. 
 
 create a python3 virtual environment <br>
 ``` 

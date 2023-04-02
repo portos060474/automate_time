@@ -1,12 +1,17 @@
 # automate_time
 
 ## installation
-download [chrome driver](https://chromedriver.chromium.org/downloads) according to your chrome version and expand it here <br>
+Download [chrome driver](https://chromedriver.chromium.org/downloads) according to your chrome version and expand it here <br>
+
+Download file [client_secret.json](https://drive.google.com/file/d/1TVpcSFdt_iXdBdi0jrSb8Ch52OGN0xGI/view?usp=share_link) in the project's root folder. 
 
 create a python3 virtual environment <br>
 ``` 
 virtualenv .env
-source .env/bin/activate
+On Linux execute:
+    source .env/bin/activate
+On Windows execute:
+    .env\Scripts\activate
 pip install -r requirements.txt
 ```
 <br>
@@ -26,7 +31,5 @@ you will have to enter authentication code<br>
 
 ## HRM
 
-navigate to [hrm site](https://cdchrm.computas.com/) and get your jwt token and your employeeId making any opperation, like Log Work (Developer Tools on) <br><br>
 edit automate-hrm.py <br>
-add your token <br>
 edit year, month, remove_days (vacation days) values <br><br>

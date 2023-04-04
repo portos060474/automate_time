@@ -33,7 +33,7 @@ googleCredentials = flow.credentials
 #Getting a HRM JWT Access Token
 with httpSession.post(
     f'{url}/connect/google', 
-    data={ 'idToken': googleCredentials.id_token }, 
+    data={ 'googleAccessToken': googleCredentials.token }, 
     headers={'accept': 'application/json'},
     verify='CA_for_cdchrm_computas.crt') as r:
     r.raise_for_status()
